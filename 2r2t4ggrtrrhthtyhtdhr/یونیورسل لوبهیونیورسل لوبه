@@ -1,0 +1,13 @@
+repeat wait() until game:IsLoaded()
+local PlaceId = game.PlaceId
+if PlaceId == 3101667897 then
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/Amira.Lua/Games/League%20of%20Legends.Lua')))()
+elseif PlaceId == 4042427666 or PlaceId == 9386500519 or PlaceId == 5113678354 or PlaceId == 5113680396 or PlaceId == 5445525505 or PlaceId == 6479720355 or PlaceId == 8988878415 or PlaceId == 7220975160 or PlaceId == 7220986579 then
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/Amira.Lua/Games/Anime%20Fighting%20Simulator.Lua')))()
+elseif PlaceId == 3276265788 then
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/Amira.Lua/Games/League%20of%20Legends%20Desert.Lua')))()
+elseif PlaceId == 3956818381 then
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/Amira.Lua/Games/Nigga%20of%20Nigger')))()
+else
+	game.Players.LocalPlayer:Kick("GAME NOT SUPPORT! YOU CAN REQUEST FOR OTHER GAME\nDISCORD: [CNR]HeyyyRappp.#1118")
+end
