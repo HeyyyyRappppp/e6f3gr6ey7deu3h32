@@ -1,5 +1,5 @@
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
-if HWID == "fbdf3d5c-404d-44a5-a5ae-4a888501d661" then
+if HWID == "fbdf3d5c-404d-44a5-a5ae-4a888501d661-HAHHA" then
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 local Player = game.Players.LocalPlayer
 
