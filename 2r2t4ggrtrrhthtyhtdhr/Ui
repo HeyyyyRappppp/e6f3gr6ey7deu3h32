@@ -1821,8 +1821,8 @@ end
 			Line.Position = UDim2.new(0, 0, 0, 10)
 			Line.Size = UDim2.new(0, 360, 0, 1)
 		end
-		return main
+
 	end
-	return uitab
+
 end
 return Library
