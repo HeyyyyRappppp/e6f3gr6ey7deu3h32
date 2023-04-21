@@ -1,3 +1,8 @@
+local function Message(text, color)
+game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = text,Color = color,})
+end
+Message("[SW Hub BOT]: Muscle Legends has been Added to SW!", Color3.fromRGB(0, 255, 255))
+wait(2)
 repeat wait() until game:IsLoaded()
 local PlaceId = game.PlaceId
 if PlaceId == 3101667897 then
@@ -8,6 +13,8 @@ elseif PlaceId == 3276265788 then
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/Amira.Lua/Games/League%20of%20Legends%20Desert.Lua')))()
 elseif PlaceId == 3956818381 then
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/Amira.Lua/Games/Nigga%20of%20Nigger')))()
+elseif PlaceId == 3623096087 then
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyyRappppp/e6f3gr6ey7deu3h32/main/2r2t4ggrtrrhthtyhtdhr/awfawfagawgahghgMdsUdS')))()
 else
 	game.Players.LocalPlayer:Kick("GAME NOT SUPPORT! YOU CAN REQUEST FOR OTHER GAME\nDISCORD: [CNR]HeyyyRappp.#1118")
 end
